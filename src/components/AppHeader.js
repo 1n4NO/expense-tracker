@@ -1,10 +1,10 @@
-
-import { HeaderWrapper } from './styles';
+import logo from '../logo.svg';
+import { HeaderWrapper, AppLogo } from './styles';
 
 function AppHeader() {
   return (
     <HeaderWrapper>
-      Header
+      <AppLogo src={logo} alt="app-logo" />
     </HeaderWrapper>
   );
 }
