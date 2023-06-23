@@ -1,9 +1,12 @@
+import { SankeyControllerWrapper, ControllerButton } from './styles';
 
 function SankeyController() {
     return (
-      <div className="SankeyController">
-        Sankey Controller
-      </div>
+      <SankeyControllerWrapper>
+        <ControllerButton>
+          Add Income/Expense
+        </ControllerButton>
+      </SankeyControllerWrapper>
     );
   }
   
